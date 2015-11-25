@@ -1,0 +1,52 @@
+body {
+	background-color: #E9EAED;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;	
+	padding: 0;
+}
+
+#posts-container {
+	width: 80%;
+    margin: 0 auto;
+}
+
+.comments-wrapper, #post-form {
+	background-color: #F6F7F8;
+    border-top: 1px solid #dddddd;
+}
+
+.post, #post-form-wrapper {
+	background-color: white;
+    margin: 2em 0;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+#post-form-wrapper p {
+	padding: 0 1em;
+}
+
+.comments-wrapper p {
+	color: #888888;
+}
+
+.post-body, .comments-wrapper, #post-form {
+	padding: 1em;
+}
+
+input[type="text"] {
+	width: 100%;
+	padding: 0.5em 0 0.5em 0.5em;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
